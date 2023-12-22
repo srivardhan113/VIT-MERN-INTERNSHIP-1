@@ -1,0 +1,16 @@
+.table {
+  background-color: rgba(45, 224, 224, 0.466);
+  border-color: black;
+  width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  margin: auto;
+  border-radius: 10px;
+}
+tr,
+th,
+td {
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+.con {
+  padding-left: 100px;
+  padding-right: 700px;
+}
+.container {
+  background-color: rgba(169, 169, 169, 0.378);
+  padding: 10px;
+}
+form {
+  font-size: medium;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  display: block;
+}
+#username {
+  display: block;
+  width: 700px;
+  height: 20px;
+}
+#password {
+  display: block;
+  width: 700px;
+  height: 20px;
+}
+#button {
+  display: block;
+  background-color: rgb(24, 179, 24);
+  color: white;
+  margin-bottom: 10px;
+  width: 710px;
+  height: 40px;
+}
+#remember {
+  float: left;
+}
+#b1 {
+  background-color: rgb(238, 71, 11);
+  color: aliceblue;
+  border-radius: 6px;
+  padding: 10px;
+}
+a {
+  color: rgba(0, 0, 0, 0.807);
+  position: absolute;
+  left: 45%;
+  top: 72%;
+}

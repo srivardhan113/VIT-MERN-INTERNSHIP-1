@@ -1,0 +1,52 @@
+/* Vertical Navigation Bar */
+.vertical {
+  float: left;
+  height: 170px;
+  width: 5px;
+  background-color: rgba(6, 209, 255, 0.664);
+  font-size: x-large;
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin-right: 300px;
+}
+.vertical a:hover {
+  background-color: coral;
+  color: white;
+}
+.vertical a {
+  text-decoration: none;
+  text-align: center;
+  color: blue;
+}
+#hor {
+  display: inline-block;
+}
+/* Horizantal Navigation Bar */
+.horizantal {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  background-color: rgba(128, 128, 128, 0.384);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  overflow: hidden;
+  border: 2px solid black;
+  font-size: x-large;
+  display: inline-block;
+}
+.horizantal a:hover {
+  background-color: rgb(113, 106, 106);
+  color: white;
+}
+.horizantal a {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}

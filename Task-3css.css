@@ -1,0 +1,27 @@
+tr {
+  width: 500px;
+}
+table {
+  margin: 30px;
+  padding: 5px;
+  width: 1350px;
+  border-collapse: collapse;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+td {
+  height: 40px;
+  margin: 0px;
+  padding: 5px;
+}
+th {
+  height: 40px;
+  background-color: rgb(8, 172, 100);
+  text-align: left;
+  padding: 5px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}

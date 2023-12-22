@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html task 4</title>
+    <style>
+      .form {
+        display: block;
+      }
+      .form label {
+        margin-left: 50px;
+      }
+      .form input {
+        margin-left: 80px;
+        border-color: rgb(165, 164, 164);
+        border-width: 2px;
+        border-style: solid;
+      }
+      .form select {
+        margin-left: 80px;
+      }
+      #username {
+        margin-left: 82px;
+      }
+      #password {
+        margin-left: 85px;
+      }
+      #re-password {
+        margin-left: 64px;
+      }
+      #address {
+        margin-left: 94px;
+      }
+      #age {
+        margin-left: 120px;
+      }
+      #dropdown {
+        margin-left: 100px;
+      }
+
+      .submit {
+        margin-left: 50px;
+      }
+      .submit:hover {
+        box-shadow: 5px 3px 5px rgba(241, 160, 11, 0.237);
+        border-color: rgb(202, 146, 42);
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" />
+      <br />
+      <br />
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" />
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <br />
+      <br />
+
+      <label for="re-password">Re Password:</label>
+      <input type="password" id="re-password" />
+      <br /><br />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" />
+      <br />
+      <br />
+
+      <label for="age">Age:</label>
+      <input type="text" id="age" />
+      <br /><br />
+
+      <label for="gender">Gender:</label>
+      <select id="dropdown">
+        <option id="gender" name="male" value="male">Male</option>
+        <option id="gender" name="female" value="female">Female</option>
+        <option id="gender" name="others" value="others">Others</option>
+      </select>
+      <br /><br />
+
+      <button value="save" class="submit">Save</button>
+    </form>
+  </body>
+</html>
